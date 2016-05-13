@@ -1,0 +1,117 @@
+/*
+	Theme Name: salient-child
+	Theme URI: http://www.themenectar.com
+	Author: ThemeNectar
+	Template: salient
+	Author URI: http://themenectar.com
+	Description: An Ultra Responsive Multi-Purpose Theme.
+	Version: 7.0.6
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/* --------- CUSTOM CSS CODE ---------- */
+
+
+/* positions and styles "coleman zurkowski" and nav bar */
+
+#header-outer {
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	padding: 28px 0px 0px 0px;
+	background-color:#fff;
+	z-index: 9998;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22) !important;
+	-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22)!important;
+	-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22)!important;
+}
+
+.contact{
+    width:75% !important;
+}
+
+.craig{
+    line-height:125% !important;
+    font-size:20px;
+}
+
+/* sizing for "coleman zurkowski" name */
+
+#logo{
+    font-size:36px !important;
+}
+
+/* positions nav bar */
+
+.col.span_9.col_last{
+    margin-top:-25px !important;
+    margin-bottom:15px !important;
+
+}
+
+/* positions "video" item in nav bar */
+
+li#menu-item-215.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-215{
+    padding:0 !important;
+}
+
+/* changes default link color */
+
+a:hover {
+  color: #CCCCCC !important;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+
+
+@media only screen and (min-width:1px) and (max-width: 1000px){
+
+    
+    /* adjusts homepage slider for small screens */
+
+    .nectar-slider-wrap{
+      margin:0px !important;  
+    }
+
+    .parallax_slider_outer.first-section .nectar-slider-wrap{
+        left: 1px !important;
+        margin-top: 65px !important;
+    }
+    
+    /* changes default color for "coleman zurkowski" name on mobile */
+
+    #header-outer.transparent .midnightHeader.default header#top #logo{
+        color:#ffffff !important;
+    }
+    
+    .midnightInnerheader#top #logo{
+        color:#ffffff !important;
+    }
+    
+    /* changes sizing for "coleman zurkowski" name */
+
+    #logo{
+        font-size:26px !important;
+        padding-top:10px !important;
+    }
+
+    /* styling for experimental music page icons */
+
+    .bandcamp_logo{
+        padding-top:35px !important;
+    }
+}
+
+/* hides "home" menu item after hamburger menu */
+
+@media only screen and (min-width:1001px){
+    #menu-item-395{
+        display:none !important;
+    }
+    
+}
+
