@@ -23,44 +23,44 @@
 	padding: 28px 0px 0px 0px;
 	background-color:#fff;
 	z-index: 9998;
-	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22) !important;
-	-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22)!important;
-	-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22)!important;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22);
 }
 
 .contact{
-    width:75% !important;
+    width:75%;
 }
 
 .craig{
-    line-height:125% !important;
+    line-height:125%;
     font-size:20px;
 }
 
 /* sizing for "coleman zurkowski" name */
 
 #logo{
-    font-size:36px !important;
+    font-size:36px;
 }
 
 /* positions nav bar */
 
 .col.span_9.col_last{
-    margin-top:-25px !important;
-    margin-bottom:15px !important;
+    margin-top:-25px;
+    margin-bottom:15px;
 
 }
 
 /* positions "video" item in nav bar */
 
 li#menu-item-215.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-215{
-    padding:0 !important;
+    padding:0;
 }
 
 /* changes default link color */
 
 a:hover {
-  color: #CCCCCC !important;
+  color: #CCCCCC;
 }
 
 
@@ -74,35 +74,35 @@ a:hover {
     /* adjusts homepage slider for small screens */
 
     .nectar-slider-wrap{
-      margin:0px !important;  
+      margin:0px;  
     }
 
     .parallax_slider_outer.first-section .nectar-slider-wrap{
-        left: 1px !important;
-        margin-top: 65px !important;
+        left: 1px;
+        margin-top: 65px;
     }
     
     /* changes default color for "coleman zurkowski" name on mobile */
 
     #header-outer.transparent .midnightHeader.default header#top #logo{
-        color:#ffffff !important;
+        color:#ffffff;
     }
     
     .midnightInnerheader#top #logo{
-        color:#ffffff !important;
+        color:#ffffff;
     }
     
     /* changes sizing for "coleman zurkowski" name */
 
     #logo{
-        font-size:26px !important;
-        padding-top:10px !important;
+        font-size:26px;
+        padding-top:10px;
     }
 
     /* styling for experimental music page icons */
 
     .bandcamp_logo{
-        padding-top:35px !important;
+        padding-top:35px;
     }
 }
 
@@ -110,7 +110,7 @@ a:hover {
 
 @media only screen and (min-width:1001px){
     #menu-item-395{
-        display:none !important;
+        display:none;
     }
     
 }
